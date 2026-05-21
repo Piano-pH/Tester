@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> The Russian Soldier </title>
+		<meta charset="utf-8">
+		<meta name="description" content="The Russian Soldier">
+		<meta name="keywords" content="HTML, CSS, snow cone, multi-page website">
+		<meta name="author" content="Keanu">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="refresh" content="100">
+		<link rel="icon" type="image/png" href="images/primarylogo.png">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"Links to an external site. rel="stylesheet">
+		<style>
+			*{
+				margin: 0px;
+			}
+			header{
+				width: 100%;
+				height: 100px;
+				display: flex;
+				background-color: #f23d67;
+				color: #f0d0f0;
+				position: sticky;
+				top: 0px;
+			}
+			#texture1{
+				position: sticky;
+				top: 100px;
+			}
+			#texture2{
+				position: sticky;
+				top: 105px;
+			}
+			nav{
+				width: 100%;
+				height: 100px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-shadow: 3px 3px #c20d37;
+			}
+			#navimage{
+				height: 100px;
+			}
+			h1{
+				font-family: Brush Script MT, courier;
+				font-variant: small-caps;
+				font-shadow: 1px 1px 2px #000000;
+				margin-left: 5%;
+			}
+			main{
+				background-color: #f0d0f0;
+				width: 100%;
+				height: 200vh;
+			footer{
+				width: 100%;
+				height: 100px;
+				display: flex;
+				background-color: #fff;
+				align-items: center;
+				justify-content: center;
+			}
+			#book,#login,#signup,#contus{
+				background-color: #f23d67;
+				font-family: Trebuchet MS, courier;
+				font-weight: bold;
+				cursor: pointer;
+				transition-duration: 300ms;
+				height: 100px;
+				border: solid 2px #f23d67;
+				color: #f0d0f0;
+			}
+			#book:hover,#login:hover,#signup:hover,#contus:hover{
+				background-color: #505;
+			}
+			#navbuttons{
+				width: 90%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100px;
+				font-size: 10pt;
+			}
+			#home{
+				cursor: pointer;
+			}
+			#socialmedia{
+				height: 95px;
+			}
+			#mainheader{
+				width: 50%;
+				font-size: 40pt;
+			}
+			#caption{
+				font-family: Trebuchet MS, courier;
+				text-align: center;
+				font-size: 20pt;
+			}
+			table{
+				border: ridge 3px #ee0010;
+				width: 100%;
+			}
+			.td{
+				height: 40px;
+				text-align: center;
+				font-family: Trebuchet MS, courier;
+				border: solid 2px #aa0010;
+				margin: 0;
+				padding: 0;
+				width: 14%;
+			}
+			td{
+				height: 40px;
+				text-align: center;
+				font-family: Trebuchet MS, courier;
+				border: none;
+				margin: 0;
+				padding: 0;
+				width: 14%;
+			}
+			caption{
+				text-align: left;
+				margin-left: 5%;
+				font-family: Brush Script MT, courier;
+				font-size: 30pt;
+				font-weight: bold;
+			}
+			#form{
+				width: 100%;
+				height: 100vh;
+			}
+			input{
+				background-color: #ee0050;
+				color: #f0d0f0;
+				border: solid 2px black;
+				border-radius: 2vh;
+				width: 20vw;
+				height: 5vh;
+				text-align: center;
+				font-size: 15pt;
+				font-family: 'Montserrat', courier;
+			}
+			.number{
+				font-size: 10pt;
+			}
+		</style>
+	</head>
+	<main>
+		<header>
+			<nav>
+				<a href="index.html" id="home">
+					<img src="images/primarylogo.png" id="navimage"></img>
+				</a>
+				<h1 id="mainheader">The Russian Soldier</h1>
+				<section id="navbuttons">
+					<a href="book.html">
+						<button id="book"> Calendar </button>
+					</a>
+					<a href="login.html">
+						<button id="login"> Login </button>
+					</a>
+					<a href="signup.html">
+						<button id="signup"> Sign Up </button>
+					</a>
+					<a href="socialmedia.html">
+						<button id="contus"> Contact Us </button>
+					</a>
+				</section>
+			</nav>
+		</header>
+		<section style="width: 100%; height: 5px; background-color: #ee0050;" id="texture1"></section>
+		<section style="width: 100%; height: 5px; background-color: #aa0010;" id="texture2"></section>
+		<main>
+			<table border="1">
+				<caption><i>March</i></caption>
+				<tr>
+					<td class="td">Sunday</td>
+					<td class="td">Monday</td>
+					<td class="td">Tuesday</td>
+					<td class="td">Wednesday</td>
+					<td class="td">Thursday</td>
+					<td class="td">Friday</td>
+					<td class="td">Saturday</td>
+				</tr>
+				<tr>
+					<a href="#form"><td><div class="number">1 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">2 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">3 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">4 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">5</div></td></a>
+					<a href="#form"><td><div class="number">6 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">7</div></td></a>
+				</tr>
+				<tr>
+					<a href="#form"><td><div class="number">8</div></td></a>
+					<a href="#form"><td><div class="number">9 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">10 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">11</div></td></a>
+					<a href="#form"><td><div class="number">12</div></td></a>
+					<a href="#form"><td><div class="number">13 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">14</div></td></a>
+				</tr>
+				<tr>
+					<a href="#form"><td><div class="number">15</div></td></a>
+					<a href="#form"><td><div class="number">16</div></td></a>
+					<a href="#form"><td><div class="number">17 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">18 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">19 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">20</div></td></a>
+					<a href="#form"><td><div class="number">21 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+				</tr>
+				<tr>
+					<a href="#form"><td><div class="number">22 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">23</div></td></a>
+					<a href="#form"><td><div class="number">24 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">25</div></td></a>
+					<a href="#form"><td><div class="number">26</div></td></a>
+					<a href="#form"><td><div class="number">27 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">28 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+				</tr>
+				<tr>
+					<a href="#form"><td><div class="number">29</div></td></a>
+					<a href="#form"><td><div class="number">30 <span style="color: red; font-weight: bold">BOOKED!</span></div></td></a>
+					<a href="#form"><td><div class="number">31</div></td></a>
+					<a href="#form"><td><div class="number"></div></td></a>
+					<a href="#form"><td><div class="number"></div></td></a>
+					<a href="#form"><td><div class="number"></div></td></a>
+					<a href="#form"><td><div class="number"></div></td></a>
+				</tr>
+			</table>
+			<p id="caption">For more information, <a href="socialmedia.html" style="color: #ee0050">Contact Us</a></p>
+			<br><br><br>
+			<center>
+				<h1 style="font-family: Trebuchet MS, courier;">Input Date & Time:</h1>
+				<br>
+				<form action="#" id="form">
+					<div class="inputbox">
+						<input type="date" id="dateinput"><br><br>
+						<input type="time" id="timeinput">
+					</div>
+				</form>
+			</center>
+		</main>
+		<section style="width: 100%; height: 5px; background-color: #ee0050;"></section>
+		<section style="width: 100%; height: 5px; background-color: #aa0010;"></section>
+		<footer>
+			<a href="socialmedia.html"><img src="images/socialmediaicons.png" id="socialmedia"></img></a>
+		</footer>
+	</main>
+</html>

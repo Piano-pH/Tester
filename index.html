@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> The Russian Soldier </title>
+		<meta charset="utf-8">
+		<meta name="description" content="The Russian Soldier">
+		<meta name="keywords" content="HTML, CSS, snow cone, multi-page website">
+		<meta name="author" content="Keanu">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="refresh" content="10">
+		<link rel="icon" type="image/png" href="images/primarylogo.png">
+		<style>
+			*{
+				margin: 0px;
+			}
+			header{
+				width: 100%;
+				height: 100px;
+				display: flex;
+				background-color: #f23d67;
+				color: #f0d0f0;
+				position: sticky;
+				top: 0px;
+			}
+			#texture1{
+				position: sticky;
+				top: 100px;
+			}
+			#texture2{
+				position: sticky;
+				top: 105px;
+			}
+			nav{
+				width: 100%;
+				height: 100px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-shadow: 3px 3px #c20d37;
+			}
+			#navimage{
+				height: 100px;
+			}
+			h1{
+				font-family: Brush Script MT, courier;
+				font-variant: small-caps;
+				font-shadow: 1px 1px 2px #000000;
+				margin-left: 5%;
+			}
+			main{
+				background-color: #f0d0f0;
+				width: 100%;
+				height: 200vh;
+			}
+			footer{
+				width: 100%;
+				height: 100px;
+				display: flex;
+				background-color: #fff;
+				align-items: center;
+				justify-content: center;
+			}
+			#book,#login,#signup,#contus{
+				background-color: #f23d67;
+				font-family: Trebuchet MS, courier;
+				font-weight: bold;
+				cursor: pointer;
+				transition-duration: 300ms;
+				height: 100px;
+				border: solid 2px #f23d67;
+				color: #f0d0f0;
+			}
+			#book:hover,#login:hover,#signup:hover,#contus:hover{
+				background-color: #505;
+			}
+			#navbuttons{
+				width: 90%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100px;
+				font-size: 10pt;
+			}
+			#home{
+				cursor: pointer;
+			}
+			#socialmedia{
+				height: 95px;
+			}
+			#mainheader{
+				width: 70%;
+				font-size: 40pt;
+			}
+			#flavors, #description{
+				background-color: #e0c0e0;
+				border: ridge 10px #ee0050;
+				width: 90%;
+				height: 80vh;
+				margin: 5%;
+				border-radius: 100px;
+				box-shadow: 0px 0px 20px #505;
+				display: flex;
+			}
+			#heading{
+				font-size: 40pt;
+				color: #ee0050;
+				text-shadow: 2px 2px 0px #aa0010;
+			}
+			.list{
+				font-family: Trebuchet MS, courier;
+				list-style-position: inside;
+				color: #ee0050;
+				text-shadow: 0px 1.5px 0px #aa0010;
+				font-size: 1em;
+				font-weight: bold;
+				list-style-type: none;
+			}
+			#left,#right{
+				text-align: center;
+				width: 40%;
+			}
+			#centerdivider{
+				height: 60vh;
+				margin: 10vh;
+				justify-content: center;
+				width: 0%;
+				border: solid 3px #aa0010;
+				display: flex;
+			}
+			#flavorsimage{
+				margin: 10%;
+				width: 80%;
+				height: 80%;
+				border: ridge 5px #ee0050;
+				border-radius: 15%;
+				border-bottom-left-radius: 5%;
+				border-bottom-right-radius: 5%;
+				box-shadow: 0px 0px 15px #505;
+				transition-duration: 300ms;
+				margin-bottom: 1%;
+			}
+			#flavorsimage:hover{
+				margin-bottom: -10vh;
+				height: 85%;
+				box-shadow: 0px 0px 10px #fff;
+			}
+			#flavorsimagecaption{
+				margin-left: 10%;
+				width: 80%;
+				font-family: Trebuchet MS, courier;
+				color: #aa0010;
+				text-shadow: 0px 1.5px 0px #ee0050;
+				transition-duration: 300ms;
+			}
+			#description{
+				justify-content: center;
+				display: block;
+				text-align: center;
+			}
+			.noleftmargin{
+				margin-left: 0px;
+			}
+			#descriptiontext{
+				font-weight: bold;
+				margin: 5%;
+				font-family: Trebuchet MS, courier;
+				color: #aa0010;
+				text-shadow: 0px 0.5px 0px #ee0050;
+			}
+			dd{
+				color: #aa0010;
+				text-shadow: 0px 1.5px 0px #ee0050;
+				font-size: 9pt;
+			}
+			dd:hover{
+				display: inline-box;
+			}
+			hr{
+				border: solid 1px #aa0010;
+				margin-left: 40px;
+				margin-top: 5px;
+			}
+		</style>
+	</head>
+	<main>
+		<header>
+			<nav>
+				<a href="index.html" id="home">
+					<img src="images/primarylogo.png" id="navimage"></img>
+				</a>
+				<h1 id="mainheader">The Russian Soldier</h1>
+				<section id="navbuttons">
+					<a href="book.html">
+						<button id="book"> Calendar </button>
+					</a>
+					<a href="login.html">
+						<button id="login"> Login </button>
+					</a>
+					<a href="signup.html">
+						<button id="signup"> Sign Up </button>
+					</a>
+					<a href="socialmedia.html">
+						<button id="contus"> Contact Us </button>
+					</a>
+				</section>
+			</nav>
+		</header>
+		<section style="width: 100%; height: 5px; background-color: #ee0050;" id="texture1"></section>
+		<section style="width: 100%; height: 5px; background-color: #aa0010;" id="texture2"></section>
+		<main>
+			<section id="flavors">
+				<div id="left">
+					<h1 id="heading"> Fantastic Flavors </h1>
+					<dl class="list">
+						<dt> Big Blue </dt>
+						<dd> Blue Raspberry Flavor </dd><hr>
+						<dt> That One Flavor That Is Too Majestic For Names </dt>
+						<dd> Every other flavor combined </dd><hr>
+						<dt> The Boom </dt>
+						<dd> Coconut flavor with chocolate chips </dd><hr>
+						<dt> Pure Freshness </dt>
+						<dd> Strawberry Flavor with Mango and a hint of Coconut </dd><hr>
+						<dt> Tiger's Blood </dt>
+						<dd> Watermelon, Strawberry, and a hint of Coconut </dd><hr>
+						<dt> Classic Coconut </dt>
+						<dd> Coconut Flavor </dd><hr>
+						<dt> Mango Tango </dt>
+						<dd> Mango Flavor </dd><hr>
+						<dt> The Sky </dt>
+						<dd> Orange (fruit) Flavor with a hint of Coconut </dd><hr>
+						<dt> Groovy Grape </dt>
+						<dd> Grape Flavor </dd>
+					</dl>
+					<hr>
+					<dd style='font-family: Trebuchet MS, courier; font-weight: bold;'> <a href="socialmedia.html" style="color: #ee0050">Contact Us</a> for more information </dd>
+				</div>
+				<div id="centerdivider"></div>
+				<div id="right">
+					<img src="images/snowconeimageshighres.jpg" id="flavorsimage">
+					<h3 id="flavorsimagecaption"> That One Flavor That Is Too Majestic For Names </h3>
+				</div>
+			</section>
+			<section id="description">
+				<h1 id="heading" class="noleftmargin"> Why us? </h1>
+				<p id="descriptiontext"> The Russian Soldier Snow Cone Co. is a world-renowned, top-notch snow cone company that goes the extra mile to make you smile. With every bite of our delicious and refreshing snow cones, you gain full satisfaction, our number one priority. Half of all proceedings donated to charity. All in one purchase, you buy yourself a refreshing snack to relieve your day and refreshing cash to help aid those in need. <br> Our trucks operate from ten to ten, giving plenty of time for a refreshing snack. They can reach any destination with roads. All employees tested for charisma to ensure customer satisfaction. You can visit one of our many store locations worldwide and see more local flavors applicable to your style!
+				<br><br> <span style="font-size: 20pt; text-shadow: 2px 2px 0px black;"> ~ <span style="color: white;">The</span> <span style="color: blue;">Russian</span> <span style="color: red;">Soldier</span> ~ </span><br><span style="font-size: 18pt;">Every type of <span style="font-family: Garamond, courier; font-size: 25pt;"><b>flavor</b></span> for every type of <span style="font-family: Brush Script MT, courier; font-size: 25pt;">savor</span>.</p>
+			</section>
+		</main>
+		<section style="width: 100%; height: 5px; background-color: #ee0050;"></section>
+		<section style="width: 100%; height: 5px; background-color: #aa0010;"></section>
+		<footer>
+			<a href="socialmedia.html"><img src="images/socialmediaicons.png" id="socialmedia"></img></a>
+		</footer>
+	</main>
+</html>
